@@ -1,0 +1,7 @@
+<script>
+  // If you are using @storybook/addon-interactions,
+  // for now you'll need to add a workaround for jest-mock relying
+  // on the node global variable by creating a .storybook/preview-head.html
+  // file containing the following:
+  window.global = window;
+</script>
